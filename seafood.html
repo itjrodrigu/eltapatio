@@ -1,125 +1,214 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>El Tapatio | Mexican Restaurant | Kingsville Texas</title>
-    <link rel="stylesheet" href="resources/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lobster|Dancing+Script' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="resources/css/main.css">
-    <link rel="stylesheet" href="resources/css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   </head>
-  <body class="white-background">
-    <header>
-     <a href="index.html" id="logo">
-       <img src="resources/img/logoybaile.gif"/>
-     </a>
-      <nav>
-        <ul>
-          <li><a href="appetizers.html">Appetizers</a></li>
-          <li><a href="sideorders.html">Side Orders</a></li>
-          <li><a href="plates.html">Plates</a></li>
-          <li><a href="seafood.html" class="selected">Sea Food</a></li>
-          <li><a href="mexicanfood.html">Mexican Food</a><li>
-          <li><a href="childplate.html">Child's Plate</a><li>
-          <li><a href="drinks.html">Drinks</a><li>
-          <li><a href="burguer.html">Burguer</a><li>
-          <li><a href="burrito.html">Burrito</a><li>
-        </ul>
+  <body>
+    <div class="container">
+ 
+      <!-- .navbar-fixed-top, or .navbar-fixed-bottom can be added to keep the nav bar fixed on the screen -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+       
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+       
+            <!-- Button that toggles the navbar on and off on small screens -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       
+            <!-- Hides information from screen readers -->
+              <span class="sr-only"></span>
+       
+              <!-- Draws 3 bars in navbar button when in small mode -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+       
+            <!-- You'll have to add padding in your image on the top and right of a few pixels (CSS Styling will break the navbar) -->
+            <a class="pull-left" href="#"><img src="resources/img/bailando_transparente_small.gif"></a>
+          </div>
+       
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="appetizers.html">Appetizers</a></li>
+              <li><a href="sideorders.html">Side Orders</a></li>
+              <li><a href="plates.html">Plates</a></li>
+              <li class="active"><a href="seafood.html">Sea Food</a></li>
+              <li><a href="mexicanfood.html">Mexican Food</a></li>
+              <li><a href="childplate.html">Child's Plate</a></li>
+              <li><a href="drinks.html">Drinks</a></li>
+              <li><a href="burger.html">Burger</a></li>
+              <li><a href="burrito.html">Burrito</a></li>
+              <li><a href="tel:+3615161655"><span class="glyphicon glyphicon-earphone"></span> Order</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
       </nav>
-    </header>
-    <div class="pattern-separator">
-    <div>    
-    <div id="wrapper">
       <section>
-        <div id="section-image" class="section">
-            <img src="resources/img/seafood.gif"/>
-        </div>
-        <ul id="gallery">
-          <li>
-              <img src="" alt="">
-              <p>39 Grilled Fish: $9.65</p>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>39 Grilled Fish: $9.65</h3>
               <p class="platedescription">Served with rice, vegetables and toasted bread.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>40 Grilled Shrimp: $9.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>40 Grilled Shrimp: $9.99</h3>
               <p class="platedescription">Served with rice, vegetables and toasted bread.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>41 Shrimp Cocktail: $8.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>41 Shrimp Cocktail: $8.99</h3>
               <p class="platedescription"></p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>42 Ranchero Shrimp and Fish</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>42 Ranchero Shrimp and Fish</h3>
               <p class="platedescription">Served with rice, vegetables and tortillas.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>43 Deviled Shrimp: $9.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>43 Deviled Shrimp: $9.99</h3>
               <p class="platedescription">Served with rice, beans and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>44 Garlic Shrimp: $9.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>44 Garlic Shrimp: $9.99</h3>
               <p class="platedescription">Served with rice, beans and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>45 Breaded Shrimp: $10.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>45 Breaded Shrimp: $10.25</h3>
               <p class="platedescription">Served with rice, beans and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>46 Breaded Fish: $10.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>46 Breaded Fish: $10.25</h3>
               <p class="platedescription">Served with rice, french fries and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>47 Shrimp Enchiladas: $10.25</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>47 Shrimp Enchiladas: $10.25</h3>
               <p class="platedescription">Served with rice and beans</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>48 Poblano Pepper Stuffed with Shrimp: 9.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>48 Poblano Pepper Stuffed with Shrimp: 9.25</h3>
               <p class="platedescription">Served with lettuce, tomato, rice and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>49 Sea Food Soup</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>49 Sea Food Soup</h3>
               <p class="platedescription">Small: $7.95</p>
               <p class="platedescription">Large: $9.75</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>50 Shrimp Soup</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>50 Shrimp Soup</h3>
               <p class="platedescription">Small: $7.25</p>
               <p class="platedescription">Large: $8.25</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>51 Shrimp with Mushroom: $10.25</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>51 Shrimp with Mushroom: $10.25</h3>
               <p class="platedescription">Served with rice, salad and french fries.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>52 Fried Seafood Combo: $10.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>52 Fried Seafood Combo: $10.25</h3>
               <p class="platedescription">2 fish, 4 shrimp, fries, salad and toast.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>53 Fish Tacos(3): $9.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/salsamexicana.png">
+            </div>
+            <div class="caption">
+              <h3>53 Fish Tacos(3): $9.25</h3>
               <p class="platedescription">Served on small corn tortilla with mango pico, salad and rice.</p>
-          </li>
-        </ul>  
+            </div>
+          </div>
+        </div>  
       </section>
-      <footer>
-        <!--<a href="http://mx.linkedin.com/in/carlucks"><img src="resources/img/linkedin.png" alt="Linkedin Logo" class="social-icon"></a>-->
-        <!--<a href="http://github.com/itjrodrigu"><img src="resources/img/github.png" alt="Git Logo" class="social-icon"></a>-->
-        <p>&copy; 2016 El Tapatio Mexican Restaurant</p>
+      <footer class="row">
+        <div class="panel-footer text-center">
+          <p class="text-muted">&copy; 2016 El Tapatio Mexican Restaurant</p>
+          <p class="text-muted">630 W. Santa Gertrudis, Kingsville, Texas, 78363.</p>
+          <p class="text-muted">Monday through Saturday: 6:00 to 22:00. Sunday: 6:00 to 14:00</p>
+        </div>
       </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
    </div>
   </body>
 </html>

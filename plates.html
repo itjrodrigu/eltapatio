@@ -1,379 +1,680 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>El Tapatio | Mexican Restaurant | Kingsville Texas</title>
-    <link rel="stylesheet" href="resources/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lobster|Dancing+Script' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="resources/css/main.css">
-    <link rel="stylesheet" href="resources/css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   </head>
   <body>
-    <header>
-     <a href="index.html" id="logo">
-       <img src="resources/img/logoybaile.gif"/>
-     </a>
-      <nav>
-        <ul>
-          <li><a href="appetizers.html">Appetizers</a></li>
-          <li><a href="sideorders.html">Side Orders</a></li>
-          <li><a href="plates.html" class="selected">Plates</a></li>
-          <li><a href="seafood.html">Sea Food</a></li>
-          <li><a href="mexicanfood.html">Mexican Food</a><li>
-          <li><a href="childplate.html">Child's Plate</a><li>
-          <li><a href="drinks.html">Drinks</a><li>
-          <li><a href="burguer.html">Burguer</a><li>
-          <li><a href="burrito.html">Burrito</a><li>
-        </ul>
+    <div class="container">
+ 
+      <!-- .navbar-fixed-top, or .navbar-fixed-bottom can be added to keep the nav bar fixed on the screen -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+       
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+       
+            <!-- Button that toggles the navbar on and off on small screens -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       
+            <!-- Hides information from screen readers -->
+              <span class="sr-only"></span>
+       
+              <!-- Draws 3 bars in navbar button when in small mode -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+       
+            <!-- You'll have to add padding in your image on the top and right of a few pixels (CSS Styling will break the navbar) -->
+            <a class="pull-left" href="#"><img src="resources/img/bailando_transparente_small.gif"></a>
+          </div>
+       
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="appetizers.html">Appetizers</a></li>
+              <li><a href="sideorders.html">Side Orders</a></li>
+              <li class="active"><a href="plates.html">Plates</a></li>
+              <li><a href="seafood.html">Sea Food</a></li>
+              <li><a href="mexicanfood.html">Mexican Food</a></li>
+              <li><a href="childplate.html">Child's Plate</a></li>
+              <li><a href="drinks.html">Drinks</a></li>
+              <li><a href="burger.html">Burger</a></li>
+              <li><a href="burrito.html">Burrito</a></li>
+              <li><a href="tel:+3615161655"><span class="glyphicon glyphicon-earphone"></span> Order</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
       </nav>
-    </header>
-    <div class="pattern-separator">
-    <div>    
-    <div id="wrapper">
       <section>
-        <div id="section-image" class="section">
-            <img src="resources/img/sideorders.gif"/>
-        </div>
-        <ul id="gallery">
-          <li>
-              <img src="" alt="">
-              <p>1. Fajita Steak: 8.99</p>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>1. Fajita Steak: 8.99</h3>
               <p class="platedescription">Charro beans, rice, sliced avocado, salad and pico de gallo.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>2. Chicken Fajitas: 8.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>2. Chicken Fajitas: 8.25</h3>
               <p class="platedescription">Cooked on the grill with bell peppers, onions and tomatoes. Served with rice, beans, salad and sliced avocado.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>3. Beef and Chicken Fajitas: 9.00</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>3. Beef and Chicken Fajitas: 9.00</h3>
               <p class="platedescription">Cooked on the grill with bell peppers, onions and tomatoes. Served with charro beans, sliced avocado, rice and cactus.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>4. Mexican Plate: 7.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>4. Mexican Plate: 7.99</h3>
               <p class="platedescription">Two cheese enchiladas taco, rice and beans.</p>
               <p class="platedescription">Flour tortilla taco(extra): 0.95</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>5. Three Beef, Chicken or Cheese Enchiladas: 7.75</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>5. Three Beef, Chicken or Cheese Enchiladas: 7.75</h3>
               <p class="platedescription">With rice and beans.</p>
               <p class="platedescription">Mixtas: 7.75</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>6. Chicken Strips $7.75</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>6. Chicken Strips $7.75</h3>
               <p class="platedescription">Served with french fries, salad, gravy and texas toast.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>7. Beef Fajitas: 8.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>7. Beef Fajitas: 8.99</h3>
               <p class="platedescription">Cooked on the grill with bell peppers, onions, tomatoes.</p>
               <p class="platedescription">Served with charro beans, rice, sliced avocado, cactus and pico de gallo.</p>
-          </li>
-          <li>
-              <img src="" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption"><h3>Beef or Chicken Soup</h3>
               <p class="platedescription">Served with rice and tortillas.</p>
               <p class="platedescription">Small: 5.25</p>
               <p class="platedescription">Large: 7.25</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>9. Menudo</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>9. Menudo</h3>
               <p class="platedescription">Small: 5.25</p>
               <p class="platedescription">Large: 7.25</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>10. Fiesta Plate: 9.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>10. Fiesta Plate: 9.25</h3>
               <p class="platedescription">Two cheese enchiladas, carne guisada, rice, sliced avocado and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>11. Carne Guisada Plate: 7.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>11. Carne Guisada Plate: 7.99</h3>
               <p class="platedescription">Rice, beans, salad and sliced avocado.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>12. Combination Plate: 7.50</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>12. Combination Plate: 7.50</h3>
               <p class="platedescription">Chicken chalupa, fajita taco, rice and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>13. Three Chicken Flautas: 6.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>13. Three Chicken Flautas: 6.99</h3>
               <p class="platedescription">Rice, sliced avocado, salad and sour cream.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>14. Pork & Beef Slices: 8.00</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>14. Pork & Beef Slices: 8.00</h3>
               <p class="platedescription">Charro beans, sliced avocado and pico de gallo.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>15. Guadalajara Plate: 8.75</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>15. Guadalajara Plate: 8.75</h3>
               <p class="platedescription">Meat chunks cooked on the grill with onions, tomatoes and bell peppers.</p>
               <p class="platedescription">Served with rice, beans and sliced avocado.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>16. Steak Ranchero: 8.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>16. Steak Ranchero: 8.25</h3>
               <p class="platedescription">Served with sliced avocado, salad, rice, ranchero salsa and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>17. T-Bone Steak: 9.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>17. T-Bone Steak: 9.99</h3>
               <p class="platedescription">Served with french fries, rice and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>18. Chicken Breast: 8.75</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>18. Chicken Breast: 8.75</h3>
               <p class="platedescription">Topped with grill onion and bell peppers.</p>
               <p class="platedescription">Served with beans, rice, and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>19. Sweetbread: 7.85</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>19. Sweetbread: 7.85</h3>
               <p class="platedescription">Served with rice, beans, salad, sliced avocado and pico de gallo.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>20. Tampiquena Plate: 9.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>20. Tampiquena Plate: 9.25</h3>
               <p class="platedescription">Served with one steak, one enchilada, rice, beans and sliced avocado.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>21. Beef or Chicken Quesadilla: 8.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>21. Beef or Chicken Quesadilla: 8.99</h3>
               <p class="platedescription">Served with rice, beans, salad and sliced avocado.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>21a.Shrimp Quesadillas: 9.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>21a.Shrimp Quesadillas: 9.99</h3>
               <p class="platedescription">Served with rice, beans, salad and sliced avocado.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>22. Chicken Fried Steak: 7.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>22. Chicken Fried Steak: 7.99</h3>
               <p class="platedescription">Served with french fries, gravy and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>23. Stuffed Poblano Pepper: 8.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>23. Stuffed Poblano Pepper: 8.25</h3>
               <p class="platedescription">Served with rice, beans, salad and sliced avocado.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>24. Tapatio Plate: 9.25</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>24. Tapatio Plate: 9.25</h3>
               <p class="platedescription">Served with two beef or cheese enchiladas, one chalupa and two crispy tacos.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>25. Crispy Tacos: 7.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>25. Crispy Tacos: 7.25</h3>
               <p class="platedescription">Beef or chicken</p>
               <p class="platedescription">Served with salad, cheese, rice, beans and tomatoes.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>26. Tripa Plate: 9.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>26. Tripa Plate: 9.99</h3>
               <p class="platedescription">Served with sliced avocado, pico de gallo, rice and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>27. Lengua Plate: 9.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>27. Lengua Plate: 9.99</h3>
               <p class="platedescription">Cooked with salsa ranchera.</p>
               <p class="platedescription">Served with sliced avocado, rice and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>28. Three Green Enchiladas(Beef, Chicken or Cheese): 7.75</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>28. Three Green Enchiladas(Beef, Chicken or Cheese): 7.75</h3>
               <p class="platedescription">With rice and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>29. Mexican Pork Chops: 8.50</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>29. Mexican Pork Chops: 8.50</h3>
               <p class="platedescription">Topped with grilled vegetables and salsa ranchera.</p>
               <p class="platedescription">Served with sliced avocado, rice and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>30. Shrimp with Beef or Chicken Fajita: 10.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>30. Shrimp with Beef or Chicken Fajita: 10.25</h3>
               <p class="platedescription">Served with salad, sliced avocado, rice and charro beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>31. Charro Plate: 9.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>31. Charro Plate: 9.99</h3>
               <p class="platedescription">Served with one stuffed poblano pepper, one steak, salad, rice and charro beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>32. Taco Salad(Beef or Chicken): 7.25</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>32. Taco Salad(Beef or Chicken): 7.25</h3>
               <p class="platedescription">Beans, lettuce, tomato, cheese and avocado.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>33. Parrilladas</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>33. Parrilladas</h3>
               <p class="platedescription">For 1 person: 15.75 (No Shrimp)</p>
               <p class="platedescription">For 2 people: 19.50</p>
               <p class="platedescription">For 3 people: 24.25</p>
               <p class="platedescription">For 4 people: 29.75</p>
               <p class="platedescription">Served with beef and chicken fajita, shrimp, sliced avocado, beans, smoked sausage with tortilla.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>34. Chicken Breast and Grilled Shrimp: 10.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>34. Chicken Breast and Grilled Shrimp: 10.25</h3>
               <p class="platedescription">Topped with salsa ranchera with cheese, and mushrooms.</p>
               <p class="platedescription">Served with rice, beans and salad sizzling plate.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>35. Chicken Breast and 1 Green Chicken Enchilada: 9.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>35. Chicken Breast and 1 Green Chicken Enchilada: 9.25</h3>
               <p class="platedescription">Served with rice, beans and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>36. Mini Taco Plate(Asada or Pastor): 7.25</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>36. Mini Taco Plate(Asada or Pastor): 7.25</h3>
               <p class="platedescription">Four small corn tortillas topped with avocado, grilled onions and cilantro.</p>
               <p class="platedescription">Served with charro beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>37. Chalupa Plate: 6.75</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>37. Chalupa Plate: 6.75</h3>
               <p class="platedescription">Two beef or chicken chalupas.</p>
               <p class="platedescription">Served with rice and beans.</p>
               <p class="platedescription">With sliced avocado: 7.25</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>38. Spinach Enchilada: 8.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>38. Spinach Enchilada: 8.25</h3>
               <p class="platedescription">Topped with salsa verde, white cheese.</p>
               <p class="platedescription">Served with rice, salad and sour cream.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>39. Grilled Fish: 9.65</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>39. Grilled Fish: 9.65</h3>
               <p class="platedescription">Served with rice, vegetables with toasted bread.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>40. Grilled Shrimp: 9.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>40. Grilled Shrimp: 9.99</h3>
               <p class="platedescription">Served with rice, vegetables with toasted bread.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>41. Shrimp Cocktail: 8.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>41. Shrimp Cocktail: 8.99</h3>
               <p class="platedescription"></p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>42. Ranchero Shrimp and Fish: 9.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>42. Ranchero Shrimp and Fish: 9.99</h3>
               <p class="platedescription">Served with rice, vegetables with tortillas.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>43. Deviled Shrimp: 9.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>43. Deviled Shrimp: 9.99</h3>
               <p class="platedescription">Served with rice, beans and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>44. Garlic Shrimp: 9.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>44. Garlic Shrimp: 9.99</h3>
               <p class="platedescription">Served with rice, beans and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>45. Breaded Shrimp: 10.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>45. Breaded Shrimp: 10.25</h3>
               <p class="platedescription">Served with rice, beans and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>46. Breaded Fish: 10.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>46. Breaded Fish: 10.25</h3>
               <p class="platedescription">Served with rice, french fries and salad.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>47. Shrimp Enchiladas: 10.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>47. Shrimp Enchiladas: 10.25</h3>
               <p class="platedescription">Served with rice and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>48. Poblano Pepper Stuffed with Shrimp: 9.25</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>48. Poblano Pepper Stuffed with Shrimp: 9.25</h3>
               <p class="platedescription">Served with lettuce, tomato, rice and beans.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>49. Sea Food Soup</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>49. Sea Food Soup</h3>
               <p class="platedescription">Small: 7.95</p>
               <p class="platedescription">Large: 9.75</p> 
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>50. Shrimp Soup</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>50. Shrimp Soup</h3>
               <p class="platedescription">Small: 7.25</p>
               <p class="platedescription">Large: 8.25</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>51. Shrimp with Mushroom: 10.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>51. Shrimp with Mushroom: 10.25</h3>
               <p class="platedescription">Served with rice, salad and french fries.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>52. Fried Seafood Combo: 10.25</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>52. Fried Seafood Combo: 10.25</h3>
               <p class="platedescription">Two fishes, four shrimps, fried, salad and toast.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>53. Fish Tacos(3): 9.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>53. Fish Tacos(3): 9.25</h3>
               <p class="platedescription">Served on small corn tortilla with mango pico, salad and rice.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Fajita Diabla (Spicy Sauce): 11.75</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>Fajita Diabla (Spicy Sauce): 11.75</h3>
               <p class="platedescription"></p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Fajita Tarasca: 11.75</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>Fajita Tarasca: 11.75</h3>
               <p class="platedescription">Grilled with Mushrooms onions and creamy sauce</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Fajitas Nortenas: 12.95</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>Fajitas Nortenas: 12.95</h3>
               <p class="platedescription">Topped with Sausage, nopalito and white cheese</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Steak and Shrimp (4): 13.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>Steak and Shrimp (4): 13.25</h3>
               <p class="platedescription">Topped with sausage, nopalito, and white cheese</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Shrimp Tarascas: 12.99</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>Shrimp Tarascas: 12.99</h3>
               <p class="platedescription">Creamy sauce, Mushrooms and onions</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Chicken Breast and Shrimp Tarascas: 13.25</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>Chicken Breast and Shrimp Tarascas: 13.25</h3>
               <p class="platedescription"></p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Chicken Chipotle: 9.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>Chicken Chipotle: 9.99</h3>
               <p class="platedescription"></p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Steak a la carte (Except T-Bone): 3.75</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/guacamole.png">
+            </div>
+            <div class="caption">
+              <h3>Steak a la carte (Except T-Bone): 3.75</h3>
               <p class="platedescription"></p>
-          </li>
-        </ul>
+            </div>
+          </div>
+        </div>
       </section>
-      <footer>
-        <!--<a href="http://mx.linkedin.com/in/carlucks"><img src="resources/img/linkedin.png" alt="Linkedin Logo" class="social-icon"></a>-->
-        <!--<a href="http://github.com/itjrodrigu"><img src="resources/img/github.png" alt="Git Logo" class="social-icon"></a>-->
-        <p>&copy; 2016 El Tapatio Mexican Restaurant</p>
+      <footer class="row">
+        <div class="panel-footer text-center">
+          <p class="text-muted">&copy; 2016 El Tapatio Mexican Restaurant</p>
+          <p class="text-muted">630 W. Santa Gertrudis, Kingsville, Texas, 78363.</p>
+          <p class="text-muted">Monday through Saturday: 6:00 to 22:00. Sunday: 6:00 to 14:00</p>
+        </div>
       </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
    </div>
   </body>
 </html>

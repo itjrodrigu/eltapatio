@@ -1,65 +1,108 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>El Tapatio | Mexican Restaurant | Kingsville Texas</title>
-    <link rel="stylesheet" href="resources/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
     <link href='http://fonts.googleapis.com/css?family=Lobster|Dancing+Script' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="resources/css/main.css">
-    <link rel="stylesheet" href="resources/css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body class="white-background">
-    <header>
-     <a href="index.html" id="logo">
-       <img src="resources/img/logoybaile.gif"/>
-     </a>
-      <nav>
-        <ul>
-          <li><a href="appetizers.html">Appetizers</a></li>
-          <li><a href="sideorders.html">Side Orders</a></li>
-          <li><a href="plates.html">Plates</a></li>
-          <li><a href="seafood.html">Sea Food</a></li>
-          <li><a href="mexicanfood.html">Mexican Food</a><li>
-          <li><a href="childplate.html">Child's Plate</a><li>
-          <li><a href="drinks.html">Drinks</a><li>
-          <li><a href="burguer.html">Burguer</a><li>
-          <li><a href="burrito.html" class="selected">Burrito</a><li>
-        </ul>
+  <body>
+    <div class="container">
+ 
+      <!-- .navbar-fixed-top, or .navbar-fixed-bottom can be added to keep the nav bar fixed on the screen -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+       
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+       
+            <!-- Button that toggles the navbar on and off on small screens -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       
+            <!-- Hides information from screen readers -->
+              <span class="sr-only"></span>
+    
+              <!-- Draws 3 bars in navbar button when in small mode -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+       
+            <!-- You'll have to add padding in your image on the top and right of a few pixels (CSS Styling will break the navbar) -->
+            <a class="pull-left" href="#"><img src="resources/img/bailando_transparente_small.gif"></a>
+          </div>
+       
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="appetizers.html">Appetizers</a></li>
+              <li><a href="sideorders.html">Side Orders</a></li>
+              <li><a href="plates.html">Plates</a></li>
+              <li><a href="seafood.html">Sea Food</a></li>
+              <li><a href="mexicanfood.html">Mexican Food</a></li>
+              <li><a href="childplate.html">Child's Plate</a></li>
+              <li><a href="drinks.html">Drinks</a></li>
+              <li><a href="burger.html">Burger</a></li>
+              <li class="active"><a href="burrito.html">Burrito</a></li>
+              <li><a href="tel:+3615161655"><span class="glyphicon glyphicon-earphone"></span> Order</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
       </nav>
-    </header>
-    <div class="pattern-separator">
-    <div>
       <section>
-        <ul id="gallery">
-          <li>
-              <img src="" alt="">
-              <p>Burrito Texano: 4.95</p>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/picodegallo.png">
+            </div>
+            <div class="caption">
+              <h3>Burrito Texano: 4.95</h3>
               <p class="platedescription">Served with beef, beans, lettuce, tomato, avocado, sour cream and cheese.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Burrito Dinner: 6.75</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/picodegallo.png">
+            </div>
+            <div class="caption">
+              <h3>Burrito Dinner: 6.75</h3>
               <p class="platedescription">One big burrito, with rice, beans and topped with gravy</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Burrito Fiesta: 5.95</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/picodegallo.png">
+            </div>
+            <div class="caption">
+              <h3>Burrito Fiesta: 5.95</h3>
               <p class="platedescription">Served with meat, lettuce, tomato, sour cream and covered with gravy and cheese.</p>
-          </li>
-          <li>
-              <img src="" alt="">
-              <p>Burrito: 4.75</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="thumbnail">
+              <img src="resources/img/picodegallo.png">
+            </div>
+            <div class="caption">
+              <h3>Burrito: 4.75</h3>
               <p class="platedescription">One big flour tortilla, fajita, beef and gravy, pork or chicken.</p>
               <p class="platedescription">Served with tomato, lettuce and sour cream.</p>
-          </li>
-        </ul>
+            </div>
+          </div>
+        </div>
       </section>
-      <footer>
-        <!--<a href="http://mx.linkedin.com/in/carlucks"><img src="resources/img/linkedin.png" alt="Linkedin Logo" class="social-icon"></a>-->
-        <!--<a href="http://github.com/itjrodrigu"><img src="resources/img/github.png" alt="Git Logo" class="social-icon"></a>-->
-        <p>&copy; 2016 El Tapatio Mexican Restaurant</p>
+      <footer class="row">
+        <div class="panel-footer text-center">
+          <p class="text-muted">&copy; 2016 El Tapatio Mexican Restaurant</p>
+          <p class="text-muted">630 W. Santa Gertrudis, Kingsville, Texas, 78363.</p>
+          <p class="text-muted">Monday through Saturday: 6:00 to 22:00. Sunday: 6:00 to 14:00</p>
+        </div>
       </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </div>
   </body>
 </html>
